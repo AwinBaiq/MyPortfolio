@@ -200,6 +200,21 @@ button:hover {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 768px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .skill-card {
+    padding: 1rem;
+  }
+  .skill-icon img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 /* Services Section */
 .services-section {
   background-color: #000; /* Latar belakang putih */
